@@ -15,6 +15,7 @@
 		8453E5841E96A5560057F768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8453E5821E96A5560057F768 /* LaunchScreen.storyboard */; };
 		8453E58F1E96A5560057F768 /* SunilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453E58E1E96A5560057F768 /* SunilTests.m */; };
 		8453E59A1E96A5560057F768 /* SunilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453E5991E96A5560057F768 /* SunilUITests.m */; };
+		A7BC968D1E96AAB900E4AE2D /* SegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BC968C1E96AAB900E4AE2D /* SegViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8453E5951E96A5560057F768 /* SunilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8453E5991E96A5560057F768 /* SunilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunilUITests.m; sourceTree = "<group>"; };
 		8453E59B1E96A5560057F768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BC968B1E96AAB900E4AE2D /* SegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegViewController.h; sourceTree = "<group>"; };
+		A7BC968C1E96AAB900E4AE2D /* SegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8453E5781E96A5560057F768 /* AppDelegate.m */,
 				8453E57A1E96A5560057F768 /* ViewController.h */,
 				8453E57B1E96A5560057F768 /* ViewController.m */,
+				A7BC968B1E96AAB900E4AE2D /* SegViewController.h */,
+				A7BC968C1E96AAB900E4AE2D /* SegViewController.m */,
 				8453E57D1E96A5560057F768 /* Main.storyboard */,
 				8453E5801E96A5560057F768 /* Assets.xcassets */,
 				8453E5821E96A5560057F768 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BC968D1E96AAB900E4AE2D /* SegViewController.m in Sources */,
 				8453E57C1E96A5560057F768 /* ViewController.m in Sources */,
 				8453E5791E96A5560057F768 /* AppDelegate.m in Sources */,
 				8453E5761E96A5560057F768 /* main.m in Sources */,
@@ -505,6 +511,7 @@
 				8453E5A01E96A5560057F768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8453E5A11E96A5560057F768 /* Build configuration list for PBXNativeTarget "SunilTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				8453E5A31E96A5560057F768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8453E5A41E96A5560057F768 /* Build configuration list for PBXNativeTarget "SunilUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				8453E5A61E96A5560057F768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
